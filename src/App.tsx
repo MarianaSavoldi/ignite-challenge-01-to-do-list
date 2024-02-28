@@ -1,15 +1,22 @@
 import { Button } from './components/Button'
-import { Header } from './components/Header'
+import { Header as MainHeader } from './components/Header'
 import { TaskInput } from './components/TaskInput'
+import { Header as TasksHeader } from './components/TasksList/Header'
+
 import styles from './App.module.css'
+import { EmptyList } from './components/TasksList/EmptyList'
 
 export function App() {
   return (
     <>
-      <Header />
+      <MainHeader />
       <div className={styles.taskInputContainer}>
         <TaskInput />
         <Button />
+      </div>
+      <div className={styles.taskContainer}>
+        <TasksHeader />
+        <EmptyList />
       </div>
     </>
   )

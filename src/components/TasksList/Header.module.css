@@ -1,0 +1,40 @@
+.taskHeader {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 0 auto;
+  height: 4rem;
+  width: 50rem;
+}
+
+.createdTasks {
+  display: flex;
+  gap: 0.5rem;
+  color: var(--blue);
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.createdTasks span {
+  color: var(--gray-200);
+  background: var(--gray-400);
+  border-radius: 16px;
+  padding: 2px 8px;
+}
+
+.finishedTasks {
+  display: flex;
+  gap: 0.5rem;
+  color: var(--purple);
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.finishedTasks span {
+  color: var(--gray-200);
+  background: var(--gray-400);
+  border-radius: 16px;
+  padding: 2px 8px;
+}

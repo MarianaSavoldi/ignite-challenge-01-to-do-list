@@ -1,0 +1,18 @@
+.taskInput {
+  width: 100%;
+  line-height: 140%;
+  height: 4rem;
+  background: var(--gray-500);
+  border: 1px solid var(--gray-700);
+  border-radius: 8px;
+  padding: 1rem;
+  color: var(--gray-100);
+}
+
+.taskInput::placeholder {
+  color: var(--gray-300);
+}
+
+.taskInput:focus {
+  border-color: var(--purple-dark);
+}

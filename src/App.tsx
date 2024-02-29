@@ -5,6 +5,7 @@ import { Header as TasksHeader } from './components/TasksList/Header'
 
 import styles from './App.module.css'
 import { EmptyList } from './components/TasksList/EmptyList'
+import { Task } from './components/TasksList/Task'
 
 export function App() {
   return (
@@ -17,6 +18,7 @@ export function App() {
       <div className={styles.taskContainer}>
         <TasksHeader />
         <EmptyList />
+        <Task />
       </div>
     </>
   )
